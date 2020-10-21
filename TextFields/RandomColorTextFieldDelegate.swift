@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class RandomColorTextFieldDelegate: NSOBject, UITextFieldDelegate {
+class RandomColorTextFieldDelegate: NSObject, UITextFieldDelegate {
     
 // func randomColor() -> UIColor {
 // @TODO: return a random color
